@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cont {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+.her {
+    background-color: lightgrey;
+    padding: 15px 0;
+}
+.hercont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    list-style-type: none;
+}
+.iter a {
+    cursor: pointer;
+}
+.mar {
+    margin-top: 50px;
+}
+.abuscont {
+    height: 500px;
+    background-color: lightgreen;
+}
+.sercont {
+    height: 500px;
+    background-color: lightsalmon;
+    margin: 50px auto;
+}
+.contcont {
+    height: 500px;
+    background-color: lightpink;
+}
